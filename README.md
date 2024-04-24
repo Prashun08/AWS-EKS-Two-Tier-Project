@@ -10,3 +10,10 @@ In this project, We are going to deploy two deployments. One for frontend and ot
 ### Project Layout
 
 ![](https://github.com/Prashun08/AWS-EKS-Two-Tier-Project/blob/main/AWS_EKS.gif)
+
+## Use the following commands for EKS Cluster: -
+
+'''
+ # To Create Cluster without NodeGroup
+ eksctl create cluster --name eksdemo1 --region=us-east-1 --zones=us-east-1a,us-east-1b --without-nodegroup
+'''
