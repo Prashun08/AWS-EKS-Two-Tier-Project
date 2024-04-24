@@ -13,7 +13,8 @@ In this project, We are going to deploy two deployments. One for frontend and ot
 
 ## Use the following commands for EKS Cluster: -
 
-'''
- # To Create Cluster without NodeGroup
- eksctl create cluster --name eksdemo1 --region=us-east-1 --zones=us-east-1a,us-east-1b --without-nodegroup
-'''
+```
+# To Create Cluster without NodeGroup
+eksctl create cluster --name eksdemo1 --region=us-east-1 --zones=us-east-1a,us-east-1b --without-nodegroup
+
+```
